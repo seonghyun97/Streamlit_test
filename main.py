@@ -7,6 +7,8 @@ import streamlit as st
 
 terminal_command = "pip install torchvision"
 os.system(terminal_command)
+terminal_command = "pip install opencv-python"
+os.system(terminal_command)
 treamlit = "cool"
 theming = "fantastic"
 both = "💥"
