@@ -48,8 +48,8 @@ with col2:
         os.system(terminal_command)
         result_path = glob.glob("runs/detect/exp/*")
         st.write(len(result_path))
-        image = Image.open(result_path[0])
-        st.image(image)
+        # image = Image.open(result_path[0])
+        # st.image(image)
         os.system(
             "rm -rf runs/detect/exp")
         os.system(
