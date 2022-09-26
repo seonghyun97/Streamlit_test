@@ -12,6 +12,8 @@ terminal_command = "pip install matplotlib"
 os.system(terminal_command)
 terminal_command = "pip install seaborn"
 os.system(terminal_command)
+terminal_command = "pip install tqdm"
+os.system(terminal_command)
 
 treamlit = "cool"
 theming = "fantastic"
