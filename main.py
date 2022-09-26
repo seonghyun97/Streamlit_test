@@ -5,7 +5,7 @@ import os
 from PIL import Image
 import streamlit as st
 
-terminal_command = "pip install - r requirements.txt"
+terminal_command = "pip install torchvision"
 os.system(terminal_command)
 treamlit = "cool"
 theming = "fantastic"
