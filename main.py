@@ -45,14 +45,14 @@ with col2:
     st.markdown(" ")
 
     if result:
-        terminal_command = "python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best2.pt --img 256 --conf 0.1 --source yolov5/runs/detect/origin/test.jpg"
+        terminal_command = "python detect.py --weights best2.pt --img 256 --conf 0.1 --source yolov5/runs/detect/origin/test.jpg"
         os.system(terminal_command)
-        result_path = glob.glob("yolov5/runs/detect/exp/*")
+        result_path = glob.glob("runs/detect/exp/*")
         image = Image.open(result_path[0])
         st.image(image)
         os.system(
-            "rm -rf yolov5/runs/detect/exp")
+            "rm -rf runs/detect/exp")
         os.system(
-            "rm -rf yolov5/runs/detect/origin/test.jpg")
+            "rm -rf runs/detect/origin/test.jpg")
     else:
         pass
