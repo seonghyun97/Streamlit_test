@@ -4,9 +4,9 @@ import sys
 import os
 from PIL import Image
 import streamlit as st
+import torch
 
-terminal_command = "sudo apt install libgl1-mesa-glx"
-os.system(terminal_command)
+
 treamlit = "cool"
 theming = "fantastic"
 both = "💥"
@@ -46,7 +46,7 @@ with col2:
     if result:
         terminal_command = "python3 detect.py --weights best2.pt --img 256 --conf 0.1 --source runs/detect/origin/test.jpg"
         os.system(terminal_command)
-        result_path = glob.glob("runs/detect/exp/*")
+        result_path = glob.glob("runs/detect/origin/*")
         st.write(len(result_path))
         image = Image.open(result_path[0])
         st.image(image)
