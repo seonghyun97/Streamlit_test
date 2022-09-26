@@ -4,7 +4,8 @@ import sys
 import os
 from PIL import Image
 import streamlit as st
-
+terminal_command = "pip install pandas"
+os.system(terminal_command)
 
 treamlit = "cool"
 theming = "fantastic"
