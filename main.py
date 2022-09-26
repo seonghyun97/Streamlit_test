@@ -19,7 +19,7 @@ treamlit = "cool"
 theming = "fantastic"
 both = "💥"
 st.set_page_config(layout="wide")
-st.title("# canAIry 열화상카메라⭐️")
+st.title("canAIry 열화상카메라⭐️")
 
 col1, col2 = st.columns([1, 1])
 with col1:
