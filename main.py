@@ -55,7 +55,6 @@ with col2:
         terminal_command = "python3 detect.py --weights best2.pt --img 256 --conf 0.1 --source runs/detect/origin/test.jpg"
         os.system(terminal_command)
         result_path = glob.glob("runs/detect/exp/*")
-        st.write(len(result_path))
         image = Image.open(result_path[0])
         st.image(image)
         os.system(
