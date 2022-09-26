@@ -6,7 +6,7 @@ from PIL import Image
 import streamlit as st
 terminal_command = "pip install pandas"
 os.system(terminal_command)
-terminal_command = "pip install yaml"
+terminal_command = "pip install pyyaml"
 os.system(terminal_command)
 treamlit = "cool"
 theming = "fantastic"
