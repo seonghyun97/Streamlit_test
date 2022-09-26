@@ -3,8 +3,6 @@ from PIL import Image
 import os
 import sys
 import glob
-import tkinter as tk
-from tkinter import filedialog
 import cv2
 from PIL import Image
 import numpy as np
