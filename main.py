@@ -8,6 +8,8 @@ terminal_command = "pip install pandas"
 os.system(terminal_command)
 terminal_command = "pip install pyyaml"
 os.system(terminal_command)
+terminal_command = "pip install matplotlib"
+os.system(terminal_command)
 treamlit = "cool"
 theming = "fantastic"
 both = "💥"
