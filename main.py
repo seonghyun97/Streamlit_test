@@ -20,7 +20,7 @@ with col1:
         image = Image.open(uploaded_file)
         im2arr = np.array(image)  # im2arr.shape: height x width x channel
         arr2im = Image.fromarray(im2arr)
-        arr2im.save('yolov5/runs/detect/origin/test.jpg')
+        arr2im.save('runs/detect/origin/test.jpg')
         st.image(image)
         result = st.button("Convert")
     else:
