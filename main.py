@@ -5,6 +5,8 @@ import os
 from PIL import Image
 import streamlit as st
 
+terminal_command = "pip install libgl1-mesa-glx"
+os.system(terminal_command)
 treamlit = "cool"
 theming = "fantastic"
 both = "💥"
