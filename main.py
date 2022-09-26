@@ -52,5 +52,6 @@ with col2:
             "rm -rf runs/detect/exp")
         os.system(
             "rm -rf runs/detect/origin/test.jpg")
+        st.write(len(result_path))
     else:
         pass
